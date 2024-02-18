@@ -9,11 +9,15 @@
 # test_sum_tuple()
 # print('test passed')
 from app import Netscanner
+from skates import Rollerskate
 
-scanner = Netscanner("Welcome With Variable")
-# print(scanner.welcomemessage)
-scanner.run()
+blueSkate = Rollerskate("Blue")
+redSkate = Rollerskate("Red")
 
+print(blueSkate.getDetails())
+assert redSkate.getDetails() == 'This is a Blue rollerskate; It has wheels', "Should build details properly"
+print(redSkate.getDetails())
+assert redSkate.getDetails() == 'This is a Red rollerskate; It has wheels', "Should build details properly"
 
-Netscanner("Welcome Without Variable").run()
-print(Netscanner("Welcome Without Variable"))
+# scanner = Netscanner('Happy Scanning!')
+# scanner.run() 

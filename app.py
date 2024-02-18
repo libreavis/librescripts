@@ -1,18 +1,9 @@
 class Netscanner:
-    welcomemessage = ''
     
     # constructor
-    def __new__(self, welmessage):
-        print('new')
-        self.setwelcomemessage(welmessage)
-        return self
-    
-    # constructor
-    def __init__(self):
+    def __init__(self, welmessage):
         print('init')
-        return self
-    
-
+        self.setwelcomemessage(welmessage)
     def targetscan():
         target_toscan = input('Please enter an IP address to scan: ')
         print(target_toscan + " is selected.")
