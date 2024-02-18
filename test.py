@@ -10,7 +10,10 @@
 # print('test passed')
 from app import Netscanner
 
-# https://live.codetogether.io/#/7e08c3a3-a136-47ae-832b-2771dc0efa29/Xx2FNQfajSVp0P0Pa0YXmm
+scanner = Netscanner("Welcome With Variable")
+# print(scanner.welcomemessage)
+scanner.run()
 
-scanner = Netscanner()
-scanner.run() 
+
+Netscanner("Welcome Without Variable").run()
+print(Netscanner("Welcome Without Variable"))
