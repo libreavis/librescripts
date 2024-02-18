@@ -8,5 +8,8 @@
 # test_sum()
 # test_sum_tuple()
 # print('test passed')
+from app import Netscanner
 
-import this
+#Netscanner.run()
+scanner = Netscanner()
+scanner.run() 
