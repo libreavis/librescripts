@@ -8,5 +8,9 @@
 # test_sum()
 # test_sum_tuple()
 # print('test passed')
+from app import Netscanner
 
-https://live.codetogether.io/#/7e08c3a3-a136-47ae-832b-2771dc0efa29/Xx2FNQfajSVp0P0Pa0YXmm
+# https://live.codetogether.io/#/7e08c3a3-a136-47ae-832b-2771dc0efa29/Xx2FNQfajSVp0P0Pa0YXmm
+
+scanner = Netscanner()
+scanner.run() 
