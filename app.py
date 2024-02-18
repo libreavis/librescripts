@@ -18,4 +18,7 @@ class Netscanner:
     def getwelcomemessage(self):
         return self.welcomemessage
     def setwelcomemessage(self, welcomemessage):
-        self.welcomemessage = welcomemessage    
+        self.welcomemessage = welcomemessage
+    # Declaring private method
+    #def __fun(self):
+    #    print("Private method")    
